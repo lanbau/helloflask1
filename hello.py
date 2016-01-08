@@ -11,4 +11,4 @@ def hello():
     return render_template('index.html', graphData=graphData.to_html())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=33507)
