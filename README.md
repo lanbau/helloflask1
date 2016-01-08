@@ -22,6 +22,7 @@
 
 - push app to heroku
   -```git push heroku master```
+
   -``` heroku scale web=1```
 - check heroku is running
   -```heroku ps```
